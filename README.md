@@ -2,7 +2,7 @@
 
 Code for the paper "Enhanced Equilibria-Solving via Private Information Pre-Branch Structure in Adversarial Team Games" (published on [ariXiv](https://arxiv.org/pdf/2408.02283) and UAI 2025.
 
-Our code is built upon the [open-source platform](https://github.com/TommasoBianchi/CFR-Jr) contributed by Tommaso Bianchi.
+
 
 ## Usage
 
@@ -22,3 +22,13 @@ In `cfr.py`, modify the `check_fun` function to set the stopping criterion. You 
 
 The entry point of the code is the python script `runner.py`.
 It currently supports `{CFR, CFR+}` as regret-minimization algorithms, which can be run on instances of the game varients of `{Kuhn, Leduc, Goofspiel}`.
+
+## Cite this work
+
+If you find this project helpful in your research, please cite our paper:
+
+Chen Qiu et al. “Enhanced Equilibria-Solving via Private Information Pre-Branch Structure in Adversarial Team Games.” UAI 2025.
+
+## Acknowlegements
+
+Our code is built upon the [open-source platform](https://github.com/TommasoBianchi/CFR-Jr) contributed by Tommaso Bianchi.
